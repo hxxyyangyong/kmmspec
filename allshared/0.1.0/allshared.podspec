@@ -13,6 +13,9 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks      = 'allshared.xcframework'
             
     spec.ios.deployment_target = '13.5'
+
+
+    
             
     spec.libraries = 'c++', 'sqlite3'
 end
